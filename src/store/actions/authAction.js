@@ -2,7 +2,7 @@ import axios from 'axios'
 import sha1 from 'sha1'
 import {AsyncStorage} from 'react-native'
 
-const url = 'http://langitsalam.com:13786/api/v1'
+const url = 'justUrl' //<- Change This
 
 export function login(username, password) {
     return(dispatch) => {
