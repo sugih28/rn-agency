@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'http://langitsalam.com:13786/api/v1'
+const url = 'justUrl' //<- Change This
 
 
 export function loadFundPerformance(token) {
